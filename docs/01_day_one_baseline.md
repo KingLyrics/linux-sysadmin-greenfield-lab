@@ -41,17 +41,29 @@
 | Mem  | 1.7Gi  | 407Mi | 1.2Gi | 4.8Mi   | 182Mi     | 1.3G      |
 | Swap | 2.0Gi  | 0B   | 2.0Gi | —      | —          | —         |
 
-6. 
+
+6. System uptime: 16:14:08 up 34 min, 2 users, load average: 0.00, 0.01, 0.00
+
+7. Date & Time: Wed Jan 28 04:16:24PM EST 2026
+8. Time Zone: America/Indiana/ Indianapolis (EST -0500)
+9. Network Configuration: For the purpose of this VIRTUAL MACHINE Port forwarding implemented
+
+HTTP on port 9090 for dashboard accessbility
 
 
 
 
 
-## Commands Ran
+## Commands Ran / learnt
 - `uname -v` - For version
 - `hostname` - To determine the hostname
 - `uname -m` - To determine the CPU architecture
 - `free -h` - To display Memory availability and use 
+- `lsblk` - Displays devices, partions and moun points
+- `uptime` - Displays information about uptime
+- `Date` / `timedatectl` - To dsplay date and time
+- `ip a` - Find ip address
+
 
 
 
