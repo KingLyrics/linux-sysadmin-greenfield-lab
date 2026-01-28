@@ -22,7 +22,6 @@
 3. Hostname
 4. CPU architecture
 5. Memory availability
-5. Disk layout
 6. System uptime
 7. Date & time
 8. Timezone
@@ -42,6 +41,7 @@
 | Mem  | 1.7Gi  | 407Mi | 1.2Gi | 4.8Mi   | 182Mi     | 1.3G      |
 | Swap | 2.0Gi  | 0B   | 2.0Gi | —      | —          | —         |
 
+6. 
 
 
 
@@ -66,4 +66,4 @@
     2. used: Memory currently used by running processes. This value does not include memory used for disk caching.
     3. free: The amount of entirely unused memory.
     4. buff/cache: Memory used by the kernel for disk buffers and file caching. The system can reclaim this memory for applications if needed.
-    5. available: The crucial metric that estimates how much memory is available for starting new applications without swapping. This is the figure you should primarily focus on when checking memory availability. 
+    5. available: The crucial metric that estimates how much memory is available for starting new applications without swapping. 
