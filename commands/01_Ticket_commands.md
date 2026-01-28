@@ -57,25 +57,6 @@ This document lists the primary commands used during Day 1 to perform server acc
 - `ip route`  
   Confirms default gateway and routing configuration.
 
-- `ping -c 3 google.com`  
-  Verifies outbound connectivity via NAT.
 
-- `resolvectl status`  
-  Confirms DNS resolver configuration.
 
----
 
-## Package Management
-
-- `dnf repolist`  
-  Lists enabled repositories.
-
-- `dnf update`  
-  Updates all installed packages to the latest versions.
-
----
-
-## Notes
-- Commands were executed via console access in a NAT-only environment
-- No GUI or dashboard tools were used
-- Output was reviewed but not stored to avoid unnecessary data exposure
