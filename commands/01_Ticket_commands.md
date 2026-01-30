@@ -1,8 +1,4 @@
-# Day 1 – Commands Used
 
-This document lists the primary commands used during Day 1 to perform server acceptance and baseline verification on a newly installed AlmaLinux 9 system.
-
----
 
 ## System Identification
 
