@@ -37,7 +37,6 @@ This lab aligns closely with **CompTIA Linux+ objectives** and real enterprise s
 - `docs/` – Formal documentation and policies
 - `tickets/` – Story-driven IT tickets and resolutions
 - `commands/` – Commands used (with explanations)
-- `lessons_learned/` – Reflections and improvements
 
 ---
 
