@@ -58,12 +58,6 @@ Mention security, stability, or maintainability where appropriate.>
 
 ---
 
-## Linux+ Objectives Covered
-- <Objective 1>
-- <Objective 2>
-- <Objective 3>
-
----
 
 ## Notes
 <Lessons learned, decisions made, or things to revisit later.>
