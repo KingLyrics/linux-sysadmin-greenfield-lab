@@ -20,3 +20,5 @@ fi
 
 # first line checs if first argument is empty
 # echos out error
+
+#TODO FINISH SCRIPT LATER

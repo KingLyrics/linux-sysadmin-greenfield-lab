@@ -47,3 +47,4 @@ usertest2; group, second group
 7. 0 - move to beginning of line
 8. $ - end of line
 9. wq - save and exit
+
