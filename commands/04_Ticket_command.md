@@ -6,21 +6,30 @@ Tested something
 - `pkill -u test` - To kill all proccesses at once and -u to target processes owned by the user.
 - `ps aux | grep test` - Get all the processes owned by a user in this case test
 - `kill PID` - kill the PID that was running 
-
+- `adduser` - to add user
+- `usermod -aG `-  to add user to group
+- `sudo passwd -s` - check account status
+- `sudo passwd -S -a | awk '$2=="L" {print $1}` - list all locked accounts
+- ` sudo grep username /etc/shadow` - shadow file to check if locked as well ! means locked
+- `usermod -p password user` - to unlock with a password
 
 
 
 # Challenges 
 - The test user account i created was refusing to be terminated.
 - It is easy to type useradd to create a user but, how do i automate it if there are 20 new employees hired in a day? Not likely but automation is essential
+- When a new user is created it seems that they have no password and are locked.
+- Accidentally delted ethan.f password and it changed from locked to NP. This is a huge security risk and needs to be corrected asap. 
+- Failed deleting all users and trying again.
 
 
 # Solutions
 - Had to individual kill the processes.
 - Test user was deleted
+- Enable the accounts
 
 
-# Automation Design
+# Automation Design ( Not implemented yet...)
 Reference: https://dev.to/amaraiheanacho/user-creation-in-bash-script-1617
 1. Should read a text file that contains a user and their group information.
 2. Should create a user and assign to group
@@ -48,3 +57,10 @@ usertest2; group, second group
 8. $ - end of line
 9. wq - save and exit
 
+
+
+# Unlocked accounts
+- Amy.f
+- lis.o
+- dev1 and dev2
+- ethan.f
