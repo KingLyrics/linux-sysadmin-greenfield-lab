@@ -8,7 +8,7 @@ HR has tasked me with creating users in this ticket
 | -------- | ------- |
 | ethan.f  | Finance |
 | amy.f  | Finance   |
-| lis.o    | Operations    |
+| lisa.o    | Operations    |
 | dev1   | Engineering|
 | dev2   |Engineering|
 

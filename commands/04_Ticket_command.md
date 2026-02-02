@@ -12,6 +12,8 @@ Tested something
 - `sudo passwd -S -a | awk '$2=="L" {print $1}` - list all locked accounts
 - ` sudo grep username /etc/shadow` - shadow file to check if locked as well ! means locked
 - `usermod -p password user` - to unlock with a password
+- `sudo passwd username` - To set hte new accounts password
+
 
 
 
@@ -21,12 +23,15 @@ Tested something
 - When a new user is created it seems that they have no password and are locked.
 - Accidentally delted ethan.f password and it changed from locked to NP. This is a huge security risk and needs to be corrected asap. 
 - Failed deleting all users and trying again.
+- Resolved and Ethan.f has been created the problem was that Alma uses useradd and not add user so home directory was not set and passwd configuration too.
+
 
 
 # Solutions
 - Had to individual kill the processes.
 - Test user was deleted
 - Enable the accounts
+- All users created.
 
 
 # Automation Design ( Not implemented yet...)
@@ -64,3 +69,5 @@ usertest2; group, second group
 - lis.o
 - dev1 and dev2
 - ethan.f
+
+
